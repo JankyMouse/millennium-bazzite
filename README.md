@@ -18,7 +18,7 @@ This script solves both issues without unlocking or modifying your base OSTree i
 Run the same script to perform a fresh install or update to the latest official Millennium release:
 
 ```bash
-curl -fsSL https://githubusercontent.com<YOUR_USERNAME>/<YOUR_REPO>/main/install_millennium_bazzite_64bit.sh -o install_millennium_bazzite.sh
+curl -fsSL https://githubusercontent.com/JankyMouse/millennium-bazzite/main/install_millennium_bazzite_64bit.sh -o install_millennium_bazzite.sh
 chmod +x install_millennium_bazzite.sh
 ./install_millennium_bazzite.sh
 ```
