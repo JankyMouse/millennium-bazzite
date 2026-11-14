@@ -111,6 +111,6 @@ rm -f "$STEAM/ubuntu12_32/libXtst.so.6" \
       "$STEAM/ubuntu12_64/libmillennium_hhx64.so" \
       "$STEAM/.cef-enable-remote-debugging"
 
-rm -rf "$STEAM/config/htmlcache"
+rm -rf "$STEAM/config/htmlcache/Default/Cache" "$STEAM/config/htmlcache/Default/Code Cache"
 
 echo "done; Millennium ${MILLENNIUM_TAG} installed. Start Steam to apply."
