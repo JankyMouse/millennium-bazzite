@@ -1,6 +1,6 @@
 # Millennium Installer for Bazzite (64-Bit Steam Client)
 
-Community-maintained installer and updater for [Millennium]([https://github.com](https://github.com/SteamClientHomebrew/Millennium)) (`v3.6.3+`) on **Bazzite** and other Fedora Atomic / OSTree-based distributions.
+Community-maintained installer and updater for [Millennium](https://github.com/SteamClientHomebrew/Millennium) (`v3.6.3+`) on **Bazzite** and other Fedora Atomic / OSTree-based distributions.
 
 ## Why This Exists
 Bazzite uses an immutable root filesystem (`/usr` is read-only) and runs the 64-bit Linux Steam client inside the SteamRT3 container. Standard Linux installers fail when attempting to write directly to `/usr/lib/millennium`, and symlinking across container boundaries breaks bootstrap checks.
